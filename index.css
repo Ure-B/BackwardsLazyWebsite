@@ -81,3 +81,35 @@ h1 {
 h2 {
     padding: 0, 20px;
 }
+
+
+
+/* Moblie Stuff*/
+
+/* Media Query for Mobile Optimization */
+@media (max-width: 600px) {
+    #navbar {
+        flex-direction: row; /* Stack elements vertically */
+        padding: 10px; /* Smaller padding for mobile */
+    }
+
+    h1 {
+        font-size: 36px; /* Smaller font size for mobile */
+        padding-left: 10px; /* Reduced padding */
+    }
+
+    #logo {
+        max-width: 150px; /* Smaller logo for mobile */
+        max-height: 150px; /* Smaller height */
+    }
+
+    #other_pages {
+        flex-direction: column; /* Stack links vertically */
+        gap: 10px; /* Reduced gap for mobile */
+    }
+
+    #about_link, #projects_link, #contact_link {
+        padding: 15px; /* Reduced padding for mobile */
+        font-size: 16px; /* Smaller font size */
+    }
+}
