@@ -162,6 +162,7 @@ main {
     border-radius: 40px;
     text-align: center;
     padding: 40px;
+    margin: 15px;
     position: relative;
 }
 
@@ -251,12 +252,46 @@ main {
     text-decoration: none;
 }
 
+#socials {
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#socials p:hover {
+    color: var(--red);
+}   
+
+.social_column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
 .social_tag {
     display: flex;
     flex-direction: row;
     align-items: center;
     padding: 0px;
     margin: 0px;
+}
+
+.social_tag i {
+    padding-right: 10px;
+    font-size: 2vw;
+}
+
+.social_tag i:hover {
+    color: var(--red);
+}
+
+.social_tag i:active {
+    color: var(--red);
+}
+
+#copyright {
+    width: 23%;
 }
 
 
